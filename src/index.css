@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+body {
+  background-color: #0c0e12;
+  color: #f1f5f9;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom smooth dark scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1217;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232a36;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #364152;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Monospace timestamp alignment */
+.font-mono-time {
+  font-family: 'JetBrains Mono', 'Roboto Mono', ui-monospace, monospace;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}

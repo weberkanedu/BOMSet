@@ -1,0 +1,24 @@
+{
+  "short_name": "Log",
+  "name": "Log - Hayatının Zaman Çizelgesi",
+  "description": "Kişisel Kronolojik Olay Kayıt Sistemi & Veritabanı",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0c0e12",
+  "theme_color": "#0c0e12",
+  "display": "standalone",
+  "orientation": "portrait"
+}
